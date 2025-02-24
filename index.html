@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW 2: JavaScript</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Welcome to the Online Designer Shop</h1>
+    <figure class = row>
+    <div id="shop">
+        <div class="item">
+            <p>Balenciaga Raver Jeans - $1000</p>
+            <img class="imgs" src="img/item1.webp">
+            <button id="addToCartBtn1">Add to Cart</button>
+            <!--<<button onclick="addToCart('BB', 1000, 'img/item1.webp')">Add to Cart</button>-->
+        </div>
+        <br>
+        <div class="item">
+            <p>Maison Margiela Paint Splatter Sneakers - $800</p>
+            <img class="imgs" src="img/item2.webp">
+            <button id="addToCartBtn2">Add to Cart</button>
+            <!--<<button onclick="addToCart('MM', 800, 'img/item2.webp')">Add to Cart</button>-->
+        </div>
+        <div class="item">
+            <p>Prada Brushed Leather Loafers - $1200</p>
+            <img class="imgs" src="img/item3.avif">
+            <button id="addToCartBtn3">Add to Cart</button>
+        <!--<button onclick="addToCart('PRD', 1500, 'img/item3.avif')">Add to Cart</button>-->
+        </div>
+
+        <div class="item">
+            <p>Prada Puffer Jacket - $2200</p>
+            <img class="imgs" src="img/item4.webp">
+            <button id="addToCartBtn4">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <p>Dolce & Gabbana Back Print Jeans - $500</p>
+            <img class="imgs" src="img/item5.avif">
+            <button id="addToCartBtn5">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <p>Rick Owens Ramone Sneakers - $1200</p>
+            <img class="imgs" src="img/item6.webp">
+            <button id="addToCartBtn6">Add to Cart</button>
+        </div>
+
+    </figure>
+    </div>
+    <h2>Cart</h2>
+    <ul id="cart"></ul>
+    <p id="total">Sub Total: $0</p>
+    <img id="cartimg" src="" alt="" style="display:none; width:100px;">
+    <script src="js/script.js"></script>
+</body>
+</html> 
